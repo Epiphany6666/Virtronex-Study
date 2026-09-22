@@ -1,0 +1,16 @@
+---
+description: 提交 git 时不要在命令或说明里带上 agent 信息
+alwaysApply: true
+---
+
+# Git 提交
+
+`git commit` 只提交代码变更。命令和提交说明里不要出现 agent、AI、Cursor、助手、自动生成这类字样。
+
+不要加这些内容：
+
+- `Co-authored-by`、`Generated-by`、`Signed-off-by` 里指向 agent 或 Cursor
+- 提交说明末尾的 “Made with Cursor” 或同类尾巴
+- `--author` 改成 agent
+
+提交说明写这次改了什么、为什么改，一两句即可。
